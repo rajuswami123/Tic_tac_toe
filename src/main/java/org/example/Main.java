@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-class tictactoe {
+class Tictactoe {
     public int checkHorizontal(char[] a) {
         int flag = 0;
         for (int i = 1; i <= 2; i += 1) {
@@ -76,7 +76,7 @@ class Main {
         Scanner sc = new Scanner(System.in);
         Logger logger = Logger.getLogger("com.api.jar");
         char[][] a = new char[3][3];
-        tictactoe t = new tictactoe();
+        Tictactoe t = new Tictactoe();
         char p1 = 'x';
         char p2 = 'O';
         char p;
